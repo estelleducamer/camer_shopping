@@ -1,4 +1,4 @@
- <div>
+
  <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="${contextRoot}/home">Online Shopping</a>
@@ -13,12 +13,13 @@
                 <li id="about" class="nav-item">
                     <a class="nav-link" href="${contextRoot}/about">About</a>
                 </li>
-                <li id="listProducts" class="nav-item">
-                    <a class="nav-link" href="${contextRoot}/listProducts">View products</a>
-                </li>
-                <li id="contact" class="nav-item">
+                 <li id="contact" class="nav-item">
                     <a class="nav-link" href="${contextRoot}/contact">Contact</a>
                 </li>
+                <li id="listProducts" class="nav-item">
+                    <a class="nav-link" href="${contextRoot}/show/all/products">View products</a>
+                </li>
+               
             </ul>
         </div>
     </nav>
